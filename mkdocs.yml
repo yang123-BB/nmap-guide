@@ -24,13 +24,25 @@ nav:
 theme:
   name: material
   language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 浅色模式
   features:
     - navigation.instant
     - navigation.tracking
     - navigation.expand
     - navigation.indexes
     - content.code.copy
-    - content.action.edit
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -41,10 +53,11 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.details
-  - pymdownx.definition
+  - admonition
+  - def_list
   - footnotes
   - attr_list
-  - admonition
+  - tables
 
 extra:
   generator: false
