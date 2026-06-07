@@ -1,0 +1,50 @@
+site_name: Nmap 入门指南
+site_description: Nmap 网络扫描工具入门教程
+site_author: LabEx
+site_url: https://yang123-BB.github.io/nmap-guide/
+
+nav:
+  - 首页: index.md
+  - 第01章 - Nmap安装和基本用法: 01_Nmap安装和基本用法/index.md
+  - 第02章 - 本地验证服务版本: 02_本地验证服务版本/index.md
+  - 第03章 - Nmap基础命令语法: 03_Nmap基础命令语法/index.md
+  - 第04章 - 寻找开放端口: 04_寻找开放端口/index.md
+  - 第05章 - 扫描和输出分析: 05_扫描和输出分析/index.md
+  - 第06章 - 输出保存为XML: 06_输出保存为XML/index.md
+  - 第07章 - 目标指定技术: 07_目标指定技术/index.md
+  - 第08章 - 从文件扫描目标: 08_从文件扫描目标/index.md
+  - 第09章 - 详细程度级别: 09_详细程度级别/index.md
+  - 第10章 - 揭开神秘端口面纱: 10_揭开神秘端口面纱/index.md
+  - 第11章 - SYN扫描安全检测: 11_SYN扫描安全检测/index.md
+  - 第12章 - UDP端口扫描: 12_UDP端口扫描/index.md
+  - 第13章 - 寻找开放UDP端口: 13_寻找开放UDP端口/index.md
+  - 第14章 - OS和版本检测: 14_OS和版本检测/index.md
+  - 第15章 - 识别Linux服务器版本: 15_识别Linux服务器版本/index.md
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.indexes
+    - content.code.copy
+    - content.action.edit
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - deflist
+  - footnotes
+  - attr_list
+
+extra:
+  generator: false
